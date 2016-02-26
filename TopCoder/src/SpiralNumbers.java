@@ -1,12 +1,21 @@
 import java.io.*;
-package PACKAGE_NAME;
 
 /**
  * Created by ruthless on 26/2/16.
  */
 public class SpiralNumbers {
-    public static void main(String args[]) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+public static String getPosition(int n)
+{
+    int x=0,y=0;
+    int sp=0;
+    int num=1;
+    while(true)
+    {
+        sp+=1;
+        if(num*num<n)
+        {
+
+        }
     }
+}
 }
