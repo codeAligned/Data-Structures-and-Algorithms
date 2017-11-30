@@ -1,8 +1,8 @@
 import java.io.*;
-
+import java.math.BigInteger;
 class csub
 {
-  public static void main(String args[])
+  public static void main(String args[]) throws IOException
   {
     BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
     BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(System.out));
@@ -10,14 +10,16 @@ class csub
      int count=0;
     while(t-->0)
     {
-      String s[]=br.readLine.split("");
-      int sum=0;
-      for (String a:s)
+      int n=Integer.parseInt(br.readLine());
+      String s=br.readLine();
+      long sum=0;
+      for (int i=0;i<n;i++)
       {
-        if(a.equals("1"))
+        if(s.charAt(0)=='1')
         sum+=1;
       }
-      bw.write(n*(n+1)/2+"\n");
+      bw.write(sum*(sum+1)/2+"");
+      bw.newLine();
     }
     bw.close();
   }

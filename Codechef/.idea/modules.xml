@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Codechef.iml" filepath="$PROJECT_DIR$/Codechef.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Codechef Long/Codechef Long.iml" filepath="$PROJECT_DIR$/Codechef Long/Codechef Long.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerRank_Practice/HackerRank_Practice.iml" filepath="$PROJECT_DIR$/HackerRank_Practice/HackerRank_Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_Lang/Java_Lang.iml" filepath="$PROJECT_DIR$/Java_Lang/Java_Lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled104.iml" filepath="$PROJECT_DIR$/untitled104.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,2 @@
+public class specter1 {
+}

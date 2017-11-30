@@ -1,12 +1,13 @@
-import java.io.*;
-package PACKAGE_NAME;
 
 /**
  * Created by ruthless on 8/2/16.
  */
 public class DivisiblityCriteria {
-    public static void main(String args[]) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    static int[] multipliers(int n, int p) {
+        int ret[] = new int[n], mult = 1;
+        for (int i = n - 1; i >= 0; i--, mult = (mult * 10) % p) {
+            ret[i] = mult;
+        }
+        return ret;
     }
 }
