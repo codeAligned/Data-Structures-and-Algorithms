@@ -9,7 +9,7 @@
 class Solution {
     
     int count=0;
-
+    // inplace solution
     public ListNode removeNthFromEnd(ListNode head, int n) {
  	if(head==null) return null;
  	head.next=removeNthFromEnd(head.next,n);
